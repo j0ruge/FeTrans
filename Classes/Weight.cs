@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FeTrans
+﻿namespace FeTrans
 {
-    public class Weight : Density
+    public class Weight : Classes.Parameters
     {
-        public double weight { get; set; }
-        readonly public double GRAVITY = 9.8;
-
         public Weight()
         {
 

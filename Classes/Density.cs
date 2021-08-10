@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace FeTrans
 {
-    public class Density : Volume
+    public class Density : Classes.Parameters
     {
-        public double density { get; set; } // kg/m^3
-        public double mass { get; set; } // kg
 
         public IDictionary<string, double> densityDictionary = new Dictionary<string, double>();
 

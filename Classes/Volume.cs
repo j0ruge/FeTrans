@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FeTrans
+﻿namespace FeTrans
 {
-    public class Volume 
+    public class Volume : Classes.Parameters
     {
-        public double volume { get; set; } // m^3
-        public double length { get; set; } // m
-        public double width { get; set; } // m
-        public double height { get; set; } // m
+
 
         public Volume() { }
 
