@@ -1,11 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using FeTrans.Classes;
+using System.Collections.Generic;
 
 namespace FeTrans
 {
-    public class Density : Classes.Parameters
+    public class Density : IDensity, IVolume, IMass
     {
 
         public IDictionary<string, double> densityDictionary = new Dictionary<string, double>();
+
+        public double density { get; set; }
+        public double volume { get; set; }
+        public double mass { get; set; }
 
         public Density()
         {

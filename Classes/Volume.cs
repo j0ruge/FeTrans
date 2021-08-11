@@ -1,6 +1,8 @@
-﻿namespace FeTrans
+﻿using FeTrans.Classes;
+
+namespace FeTrans
 {
-    public class Volume : Classes.Parameters
+    public class Volume : IVolume, IParameters
     {
 
 
@@ -12,6 +14,11 @@
             this.width = width;
             this.height = height;
         }
+
+        public double volume { get; set; }
+        public double length { get; set; }
+        public double width { get; set; }
+        public double height { get; set; }
 
         public double CalculateVolume()
         {

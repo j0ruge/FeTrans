@@ -1,16 +1,20 @@
-﻿namespace FeTrans
-{
-    public class Weight : Classes.Parameters
-    {
-        public Weight()
-        {
+﻿using FeTrans.Classes;
 
-        }
+namespace FeTrans
+{
+    public class Weight : IMass, IWeight
+    {
+        public Weight() { }
 
         public Weight(double mass)
         {
             this.mass = mass;
         }
+
+        public double GRAVITY = 9.8;
+
+        public double mass { get; set; }
+        public double weight { get; set; }
 
         public double CalculateWeight()
         {
