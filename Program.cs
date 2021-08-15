@@ -13,7 +13,7 @@ namespace FeTrans
             double result = density.CalculateDensity();
 
             var mass = new Mass(850.0, 2.0);
-            string massResult = mass.FormatedMass();
+            string massResult = mass.FormatedValue();
 
             var volume = new Volume(4.0, 5.0, 3.0).CalculateVolume();
 
@@ -35,6 +35,7 @@ namespace FeTrans
             Console.WriteLine(airDensity);
             Console.WriteLine(ex2MassValue);
             Console.WriteLine(ex2AirWeightValue);
+            Console.WriteLine(Math.Pow(5,2));
         }
     }
 }

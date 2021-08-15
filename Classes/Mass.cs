@@ -1,6 +1,8 @@
-﻿namespace FeTrans
+﻿using FeTrans.Classes;
+
+namespace FeTrans
 {
-    public class Mass : Density
+    public class Mass : Density, IDefaultMethods
     {
         
         public Mass()
@@ -23,7 +25,7 @@
 
         }
 
-        public string FormatedMass()
+        public string FormatedValue()
         {
             string mass = CalculateMass().ToString();
 

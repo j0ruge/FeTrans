@@ -1,4 +1,5 @@
 ﻿using FeTrans.Classes;
+using System;
 using System.Collections.Generic;
 
 namespace FeTrans
@@ -25,8 +26,10 @@ namespace FeTrans
 
         public void UseDensityDictionary()
         {
-            densityDictionary.Add("water", 1000);
+            densityDictionary.Add("water", 1.00 * Math.Pow(10, 3));
             densityDictionary.Add("air", 1.2);
+            densityDictionary.Add("ice", 0.92 * Math.Pow(10, 3));
+            densityDictionary.Add("silver", 10.5 * Math.Pow(10, 3));
         }
 
         public double CalculateDensity()
