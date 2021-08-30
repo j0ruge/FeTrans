@@ -4,4 +4,4 @@ Repositório contendo a sistematização das aulas da matéria <strong>Fenômeno
 
 A ideia deste projeto é a medida que os conceitos da matéria forem apresentados, criamos métodos capazes de ajudar na resolução dos calculo dos exercícios.
 
-Quem estiver interessado em melhorar o projeto, fique live para dar Fork e sugerir melhorias.
+Quem estiver interessado em melhorar o projeto, fique livre para dar Fork e sugerir melhorias.
