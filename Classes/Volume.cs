@@ -25,6 +25,11 @@ namespace FeTrans
             return this.volume = this.length * this.width * this.height;
         }
 
+        public double CalculateVolume(double profundidade, double comprimeiro, double altura)
+        {
+            return this.volume = profundidade * comprimeiro * altura;
+        }
+
         public string FormatedVolume()
         {
             string volume = CalculateVolume().ToString();

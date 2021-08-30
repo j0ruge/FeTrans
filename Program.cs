@@ -7,11 +7,16 @@ namespace FeTrans
     {
         static void Main(string[] args)
         {
-            var pabs = new Pressure();
+            var peso = new Peso(3.0);
 
-            string resultado = pabs.PressaoAbsolutaValorFormatado(14.5, -5.8);
+            peso.CalcularPeso();
 
-            Console.WriteLine(resultado);
+            var patm = new Pressao();
+
+            var result = peso.CalcularPeso(); ;
+
+            Console.WriteLine(result);
+           
         }
     }
 }

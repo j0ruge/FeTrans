@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace FeTrans.Classes
 {
-    interface IWeight
+    interface IPeso
     {
-        public double weight { get; set; }
+        public double peso { get; set; }
     }
 }

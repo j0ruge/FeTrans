@@ -2,15 +2,19 @@
 
 namespace FeTrans
 {
-    public class Mass : Density, IDefaultMethods
+    public class Massa : Density, IDefaultMethods
     {
         
-        public Mass()
+        public Massa()
         {
             
         }
 
-        public Mass(double density, double volume) {
+        override
+        public double massa { get; set; }
+        
+
+        public Massa(double density, double volume) {
 
            
             this.density = density;
@@ -20,8 +24,8 @@ namespace FeTrans
 
         public double CalculateMass()
         {
-            mass = density * volume;
-            return mass;
+            this.massa = density * volume;
+            return this.massa;
 
         }
 

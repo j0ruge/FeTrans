@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace FeTrans.Classes
 {
-    interface IMass
+    interface IMassa
     {
-        public double mass { get; set; } // kg
+        public double massa { get; set; } // kg
     }
 }
